@@ -1,12 +1,21 @@
 PODS:
-  - FBRetainCycleDetector (0.1.2)
+  - FBRetainCycleDetector (0.1.4)
 
 DEPENDENCIES:
-  - FBRetainCycleDetector
+  - FBRetainCycleDetector (from `https://github.com/Jim1024/FBRetainCycleDetector.git`)
+
+EXTERNAL SOURCES:
+  FBRetainCycleDetector:
+    :git: https://github.com/Jim1024/FBRetainCycleDetector.git
+
+CHECKOUT OPTIONS:
+  FBRetainCycleDetector:
+    :commit: c6e2d5d00ff20fad4915450f78db651e9402f731
+    :git: https://github.com/Jim1024/FBRetainCycleDetector.git
 
 SPEC CHECKSUMS:
-  FBRetainCycleDetector: 45462f9ed1af0cd77224a4cc4e6dacaca47371b4
+  FBRetainCycleDetector: 46daef95c2dfa9be34b53087edf6a8f34e4c749c
 
-PODFILE CHECKSUM: 38741d1572d2c8740a441bc6562c61fa2ce1ef2e
+PODFILE CHECKSUM: 90d6ed81ad16f0fa1c57dec24a841de2f65f70c2
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.5.3
